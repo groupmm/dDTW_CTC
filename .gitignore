@@ -1,0 +1,4 @@
+__pycache__
+01_single_label_MTD/data/hcqt_database/*
+02_multi_label_PCE/data/hcqt/*
+.ipynb_checkpoints

@@ -18,7 +18,7 @@ This repository contains code to reproduce all experiments in the paper. The exp
     - does not require additional resources
 - dDTW_toolbox/
     - contains a CUDA-optimized implementation of the dDTW algorithm, programmed exactly as described in the paper
-    6-- the toolbox implementation is used for all experiments
+    - the toolbox implementation is used for all experiments
 
 ## Getting started
 If you want to see how dDTW can replace an element-wise loss function or CTC out-of-the-box, take a look at ./01_single_label_MTD/trainScript.py

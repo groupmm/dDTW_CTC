@@ -3,7 +3,7 @@ Accompanying code for:
 
 Johannes Zeitler (johannes.zeitler@audiolabs-erlangen.de) <br>
 International Audio Laboratories Erlangen <br>
-December 2025
+2026
 
 ## Overview
 This repository contains code to reproduce all experiments in the paper. The experiments are separated into single folders:
@@ -18,7 +18,7 @@ This repository contains code to reproduce all experiments in the paper. The exp
     - does not require additional resources
 - dDTW_toolbox/
     - contains a CUDA-optimized implementation of the dDTW algorithm, programmed exactly as described in the paper
-    - the toolbox implementation is used for all experiments
+    6-- the toolbox implementation is used for all experiments
 
 ## Getting started
 If you want to see how dDTW can replace an element-wise loss function or CTC out-of-the-box, take a look at ./01_single_label_MTD/trainScript.py
@@ -28,4 +28,4 @@ To reduce the memory footprint of this repository, we do not include all trainin
 
 ## If you find this code useful...
 please consider citing our paper
-> Johannes Zeitler and Meinard Müller, "A Unified Perspective on CTC and SDTW using Differentiable DTW", submitted to IEEE Transactions on Audio, Speech, and Language Processing, 2025.
+> Johannes Zeitler and Meinard Müller. A Unified Perspective on CTC and SDTW using Differentiable DTW. IEEE Transactions on Audio, Speech, and Language Processing, 34:936-951, 2026. doi:10.1109:TASLPRO.2026.3657213
